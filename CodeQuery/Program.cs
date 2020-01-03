@@ -81,7 +81,7 @@ namespace CodeQuery
                 }
             }
 
-            Console.WriteLine("Find public methods with DateTime or DateTime? parameter.");
+            Console.WriteLine("Find methods.");
             Console.WriteLine($"File: {file}");
             Console.WriteLine($"Projects: {projectRegex?.ToString() ?? "(all)"}");
             Console.WriteLine($"Namespaces: {namespaceRegex?.ToString() ?? "(all)"}");
