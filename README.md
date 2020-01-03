@@ -16,7 +16,7 @@ File: C:/dev/CodeQuery/CodeQuery.sln
 Projects: (all)
 Namespaces: (all)
 Method param type: System.DateTime\??
-00:00:01.6212122 001 CodeQuery.Program.NormalDateTime(System.DateTime)
-00:00:01.6508902 002 CodeQuery.Program.NullableDateTime1(System.DateTime?)
-00:00:01.6602779 003 CodeQuery.Program.NullableDateTime2(System.DateTime?)
+00:00:01.1675201 001 CodeQuery.SampleClass.NormalDateTime(System.DateTime)
+00:00:01.2013137 002 CodeQuery.SampleClass.NullableDateTime1(System.DateTime?)
+00:00:01.2120629 003 CodeQuery.SampleClass.NullableDateTime2(System.DateTime?)
 ```
