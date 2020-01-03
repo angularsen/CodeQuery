@@ -3,6 +3,18 @@ Experimenting with Roslyn to analyze and query code, until ReSharper or Rider/Vi
 
 
 ### Examples
+```
+$ dotnet run
+Supported commands:
+methods solution-or-project-or-source-file [--projects regex] [--namespaces regex] [--method-param-type regex]
+
+Examples:
+---
+
+Query all methods with a parameter of type System.DateTime -or- System.DateTime?
+CodeQuery.exe methods "C:/dev/CodeQuery/CodeQuery.sln" --projects "^(CodeQuery)$" --method-param-type "System.DateTime\??"
+```
+
 #### Find all methods with a parameter of type `System.DateTime` or the nullable `System.DateTime?`
 Note that `Nullable<T>` and `T?` is handled as if the same.
 
